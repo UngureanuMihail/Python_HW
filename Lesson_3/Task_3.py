@@ -9,7 +9,9 @@ difference = max(list_of_floats) - min(list_of_floats)
 print('Разнциа между числами - {:.2}'.format(difference)) # Вывдод максимального числа дробной части
 
 
-def difference_fractional(num_list):  # фунция для определения разницы между дробными частами
+# 2 вариант____________________________________
+
+def difference_fractional(num_list):  # фунция для определения разницы между дробными частями
     res_list = []  # пустой список для заполнения дробными частями
     for i in num_list:
         res_list.append(round(i % 1, 10))  # добавляем в список округленные дробные части
