@@ -13,6 +13,7 @@ if k >= 0:
             resultString += f'{randint(0, 100)}*x^{k} + '
         k -= 1
 
+
 else:
     while k < 0:
         resultString += f'{randint(0, 100)}*x^{k} + '
