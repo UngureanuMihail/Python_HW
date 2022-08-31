@@ -3,7 +3,7 @@
 
 from random import randint
 
-k = int(input('Introduce your max coef:'))
+k = int(input('Introduce your max coef: '))
 resultString = ''
 if k >= 0:
     while k > 0:
