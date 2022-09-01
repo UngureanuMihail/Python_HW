@@ -14,3 +14,5 @@ def get_unique_numbers(numbers):
 
 
 print(f'Your list of non-repeating elements of the original sequence is : {get_unique_numbers(num_list)}')
+
+
