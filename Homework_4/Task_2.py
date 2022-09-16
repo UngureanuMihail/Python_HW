@@ -3,6 +3,7 @@
 num_list = [x for x in range(13)]
 
 
+
 def get_unique_numbers(numbers):
     list_of_unique_numbers = []
     for number in set(numbers):
